@@ -1,5 +1,5 @@
 var choice1 = prompt("What race do you want to be? Human is the only option right now, but more will be added down the road. To choose human, type: 1, Human, human, Terran, or terran")
-switch(choice1):
+switch(choice1){
   case:'1'
   document.write("")
   break;
@@ -17,3 +17,4 @@ switch(choice1):
   break;
   default:
   document.write("")
+}
