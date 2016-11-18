@@ -1,20 +1,24 @@
 var choice1 = prompt("What race do you want to be? Human is the only option right now, but more will be added down the road. To choose human, type: 1, Human, human, Terran, or terran")
 switch(choice1){
   case:'1'
-  document.write("")
-  break;
+    document.write("")
+    break;
   case:'Human'
-  document.write("")
-  break;
+    document.write("")
+    break;
   case:'human'
-  document.write("")
-  break;
+    document.write("")
+    break;
   case:'Terran'
-  document.write("")
-  break;
+    document.write("")
+    break;
   case:'terran'
-  document.write("")
-  break;
+    document.write("")
+    break;
   default:
-  document.write("")
+    document.write("")
 }
+
+
+
+
