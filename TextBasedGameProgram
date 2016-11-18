@@ -1,23 +1,18 @@
-var choice1 = prompt("What race do you want to be? Human is the only option right now, but more will be added down the road. To choose human, type: 1, Human, human, Terran, or terran")
+var choice1 = prompt("What race do you want to be? The options are human, elf, and half-elf. To choose human, type: human. To choose elf, type: elf. To choose half-elf, type: half-elf.").lower
 switch(choice1){
-  case:'1'
-    document.write("")
-    break;
-  case:'Human'
-    document.write("")
-    break;
   case:'human'
-    document.write("")
+    document.write("Good job for choosing your own race.")
     break;
-  case:'Terran'
-    document.write("")
+  case:'elf'
+    document.write("Do you even know how elves work?")
     break;
-  case:'terran'
-    document.write("")
+  case:''half-elf'
+    document.write("Well I guess it's close enough to a human to be effectively played")
     break;
-  default:
-    document.write("")
+default:
+    document.write("That's not one of the options.")
 }
+
 
 
 
