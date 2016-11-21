@@ -1,19 +1,20 @@
-var choice1 = prompt("What race do you want to be? The options are human, elf, and half-elf. To choose human, type: human. To choose elf, type: elf. To choose half-elf, type: half-elf.").lower
+var choice1 = prompt("What race do you want to be? The options are human, elf, and half-elf. To choose half-elf, type: half-elf, the others are obvious.").lower
+var raceChoice = function (choice1) {
 switch(choice1){
   case:'human'
     document.write("Good job for choosing your own race.")
     break;
   case:'elf'
-    document.write("Do you even know how elves work?")
+    document.write("Do you even know how elves work? If so, sorry for qustioning your vast knowledge of fictional races.")
     break;
   case:''half-elf'
-    document.write("Well I guess it's close enough to a human to be effectively played")
+    document.write("It's pretty close to a human, in fact, most half-elves are more than 50% human.")
     break;
 default:
     document.write("That's not one of the options.")
-}
+} };
 
 
 
 
-
+raceChoice(choice1);
